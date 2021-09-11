@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Lassen Sie sich beraten",
+    "description": "Zu Ihrem Projekt oder Vorhaben beraten wir Sie gern. Sprechen Sie uns an.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Qualität für Sie",
+    "description": "Von uns können Sie Qualität erwarten. Wir setzen Hochwertige Baugruppen ein und halten unsere Mitarbeitende auf dem aktuellen Stand der handwerklichen Kenntnisse.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Aktuelle Zertifizierung",
+    "description": "Durch ständige Aus- und Fortbildungen können sich sicher sein, dass wir allen Zertifizierungsansprüchen gerecht werden können.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]

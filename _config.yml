@@ -1,0 +1,49 @@
+baseurl: '/wolfrum.github.io/'
+permalink: pretty
+title: 'Wolfrum GmbH'
+
+logo:
+  mobile: "images/ci-wolfrum/favicon.svg"
+  mobile_height: "32px"
+  mobile_width: "32px"
+  desktop: "images/ci-wolfrum/wolfrum-logo.svg"
+  desktop_height: "32px"
+  desktop_width: "120px"
+
+collections:
+  angebote:
+    output: true
+  team:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "angebote"
+    values:
+      layout: "angebot"
+  - scope:
+      path: ""
+      type: "team"
+    values:
+      layout: "team"
+
+sass:
+  indentWidth: 4
+  style: compressed # possible values: nested expanded compact compressed
+  precision: 10
+
+plugins:
+  - jekyll-environment-variables
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md

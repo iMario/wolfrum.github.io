@@ -1,0 +1,21 @@
+main:
+  - name: "Unsere Angebote"
+    url: "/angebote/"
+    weight: 2
+  - name: "Team"
+    url: "/team/"
+    weight: 3
+  - name: "Über uns"
+    url: "/about/"
+    weight: 4
+  - name: "Kontakt"
+    url: "/kontakt/"
+    weight: 5
+
+footer:
+  - name: "Startseite"
+    url: "/"
+    weight: 1
+  - name: "Impressum & Datenschutz"
+    url: "/impressum/"
+    weight: 2
