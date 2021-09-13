@@ -1,8 +1,7 @@
 ---
 title: "Planung"
-featured: false
-weight: 5
 layout: angebot
+weight: 5
 ---
 
 Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum

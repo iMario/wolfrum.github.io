@@ -1,9 +1,7 @@
 ---
 title: "Beratung"
-date: 2018-11-18T12:33:26+10:00
-featured: false
-weight: 6
 layout: angebot
+weight: 6
 ---
 
 Lorem markdownum **Achaica revolutaque amore**, penitus puppes nec furit,

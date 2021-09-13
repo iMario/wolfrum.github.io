@@ -24,14 +24,15 @@ bodyClass: "page-home"
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
-      {% for angebot in site.angebote %}
+      {% assign weighted_angebote = site.angebote | where: "featured", true | sort: "weight" %}    
+      {% for angebot in weighted_angebote %}
       <div class="col-12 col-md-4 mb-1">
         <div class="service service-summary">
           <div class="service-content">
             <h2 class="service-title">
               <a href="{{ angebot.url | relative_url }}">{{ angebot.title }}</a>
             </h2>
-            <p>{{ angebot.content | markdownify | strip_html | truncate: 100 }}</p>
+            <p>{{ angebot.content | markdownify | strip_html | truncate: 150 }}</p>
           </div>
         </div>
       </div>

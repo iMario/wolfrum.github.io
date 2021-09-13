@@ -5,7 +5,7 @@ image: "images/team/peter-van-eijk-711986-unsplash.jpg"
 jobtitle: "Director"
 linkedinurl: "https://www.linkedin.com/"
 promoted: true
-weight: 1
+weight: 2
 layout: team
 ---
 

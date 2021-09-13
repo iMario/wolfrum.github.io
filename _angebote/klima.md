@@ -1,8 +1,8 @@
 ---
 title: "Klima"
+layout: angebot
 featured: true
 weight: 3
-layout: angebot
 ---
 
 Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia

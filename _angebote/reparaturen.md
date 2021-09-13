@@ -1,8 +1,7 @@
 ---
 title: "Reparaturen"
-featured: false
-weight: 4
 layout: angebot
+weight: 4
 ---
 
 Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum
